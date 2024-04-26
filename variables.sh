@@ -33,3 +33,12 @@ full_name="$first_name $last_name"
 
 # Single quotes treat every character literally.
 literal_full_name = '$first_name $last_name'
+
+# Display values in the string variables to terminal.
+echo $full_name $literal_full_name $name
+
+# Set the value in a variable as the path to a directory.
+sampledir=../Bash-Projects
+
+# List the contents of the directory in the variable
+ls $sampledir
